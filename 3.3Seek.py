@@ -1,0 +1,6 @@
+fp = open('ts.txt', 'r')
+teks = fp.read()
+print("Before seek\n", teks)
+print("After seek")
+fp.seek(5)
+print(fp.readline())
